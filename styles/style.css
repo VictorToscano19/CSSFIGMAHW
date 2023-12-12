@@ -1,0 +1,90 @@
+:root {
+    --font-primary: 'Rethink Sans', sans-serif;
+}
+h1,h3,h4,h5,p {
+    font-family: var(--font-primary);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid yellow;
+    border-radius: 1px;
+
+}
+/*.precontent {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}*/
+#ContenedorBlanco {
+    color: black;
+    position: left;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#ContenedorMorado {
+    width: 300px;
+    height: 400px;
+    color: rgb(243, 245, 247);
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#Imagen3 {
+    height: 280px;
+}
+.display-grid {
+    position: relative;
+    left: 58px;
+    height: 15px;
+    background-color: purple;
+    width: 170px;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid black;
+}
+.Mdisplay-flex {
+    display: flex;
+    position: relative;
+    left: 50px;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    text-align: center;
+}
+.display-flex {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    width: 100px;
+    align-items: center;
+    border: 0.1px solid black;color: gray;
+    border-radius: 3px;
+    font-size: medium;
+
+}
+#Google-icon{
+    width: 20px;
+}
+#Apple-icon {
+    width: 20px;
+}
+.Already {
+    position: relative;
+    left: 30px;
+    color: blueviolet;
+    font-size: small;
+}
